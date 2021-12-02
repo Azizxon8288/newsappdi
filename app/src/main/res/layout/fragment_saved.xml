@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_30sdp"
+    tools:context=".ui.fragment.home.SavedFragment">
+
+    <LinearLayout
+        android:id="@+id/image_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="30dp"
+            app:cardBackgroundColor="#EEF0FB"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_empty"
+                android:visibility="visible" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:elevation="30dp"
+            android:gravity="center"
+            android:letterSpacing="0.15"
+            android:maxLines="3"
+            android:minLines="3"
+            android:text="@string/you_haven_t_saved_any_articles_yet_start_reading_and_bookmarking_them_now"
+            android:textAlignment="center"
+            android:textColor="@color/lightTextColor"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+
+    <me.didik.component.StickyNestedScrollView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:tag="sticky">-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:fontFamily="@font/bold"
+                    android:text="@string/bookmarks"
+                    android:textColor="@color/lightTextColor"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+<!--            </LinearLayout>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/saved_articles_to_the_library"
+                android:textColor="@color/textColorGray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rec_rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusable="true"
+                        android:orientation="vertical"
+                        android:overScrollMode="never"
+                        android:visibility="visible"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:listitem="@layout/item_news1" />
+
+                </FrameLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+    </me.didik.component.StickyNestedScrollView>
+
+
+</FrameLayout>

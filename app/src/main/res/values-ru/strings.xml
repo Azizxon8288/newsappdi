@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bookmarks">Закладки</string>
+    <string name="saved_articles_to_the_library">Сохраненные статьи в библиотеке</string>
+    <string name="you_haven_t_saved_any_articles_yet_start_reading_and_bookmarking_them_now">Вы еще не сохранили ни одной статьи. Начните читать и добавляйте их в закладки прямо сейчас</string>
+    <string name="browse">Просматривать</string>
+    <string name="discover_things_of_this_world">Откройте для себя вещи этого мира</string>
+    <string name="recommended_for_you">Рекомендуется для вас</string>
+    <string name="see_all">Увидеть все</string>
+    <string name="search">Поиск</string>
+    <string name="language">Язык</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="german">Немецкий</string>
+    <string name="spanish">Испанский</string>
+    <string name="categories">Категории</string>
+    <string name="thousands_of_articles_in_each_category">Тысячи статей в каждой категории</string>
+    <string name="settings">Настройки</string>
+    <string name="dark_mode">Темный режим</string>
+    <string name="saved">Сохранено</string>
+    <string name="unsaved">Несохраненный</string>
+    <string name="today">Сегодня</string>
+
+</resources>

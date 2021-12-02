@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bookmarks">Marcadores</string>
+    <string name="saved_articles_to_the_library">Artículos guardados en la biblioteca</string>
+    <string name="you_haven_t_saved_any_articles_yet_start_reading_and_bookmarking_them_now">Aún no ha guardado ningún artículo. Empiece a leer y a marcarlos ahora</string>
+    <string name="browse">Navegar</string>
+    <string name="discover_things_of_this_world">Descubre cosas de este mundo</string>
+    <string name="recommended_for_you">Recomendado para ti</string>
+    <string name="see_all">Ver todo</string>
+    <string name="search">Buscar</string>
+    <string name="language">Idioma</string>
+    <string name="english">Inglesa</string>
+    <string name="russian">Rusa</string>
+    <string name="german">Alemana</string>
+    <string name="spanish">Española</string>
+    <string name="categories">Categorías</string>
+    <string name="thousands_of_articles_in_each_category">Miles de artículos en cada categoría</string>
+    <string name="settings">Ajustes</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="saved">Salvado</string>
+    <string name="unsaved">No guardado</string>
+    <string name="today">Hoy dia</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">BBC</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="saved_articles_to_the_library">Saved articles to the library</string>
+    <string name="you_haven_t_saved_any_articles_yet_start_reading_and_bookmarking_them_now">You haven\'t saved any articles yet. Start reading and bookmarking them now</string>
+    <string name="browse">Browse</string>
+    <string name="discover_things_of_this_world">Discover things of this world</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="see_all">See all</string>
+    <string name="search">Search</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="german">German</string>
+    <string name="spanish">Spanish</string>
+    <string name="categories">Categories</string>
+    <string name="thousands_of_articles_in_each_category">Thousands of articles in each category</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="saved">Saved</string>
+    <string name="unsaved">UnSaved</string>
+    <string name="today">Today</string>
+</resources>
